@@ -179,6 +179,7 @@ setup(
             'lemur = lemur.manage:main',
         ],
         'lemur.plugins': [
+            'linux_destination = lemur.plugins.lemur_linuxdst.plugin:LinuxDstPlugin',
             'verisign_issuer = lemur.plugins.lemur_verisign.plugin:VerisignIssuerPlugin',
             'acme_issuer = lemur.plugins.lemur_acme.plugin:ACMEIssuerPlugin',
             'aws_destination = lemur.plugins.lemur_aws.plugin:AWSDestinationPlugin',
